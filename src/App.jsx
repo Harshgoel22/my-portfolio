@@ -68,10 +68,10 @@ function App() {
         ></div>
         
         <section className="w-full fixed top-0 z-50" name="navbar"> <Navbar/> </section>
-        <section id="myid0" className='min-h-screen' name="intro"><Intro/></section>
-        <section id='myid1' className='min-h-screen bg-opacity-80' name="about"><About/></section>
-        <section id="myid4" className='min-h-screen bg-opacity-80' name="experience"><Experience/></section>
-        <section id='myid3' className='min-h-screen bg-opacity-80' name="projects"><Projects/></section>
+        <section id="myid0" className='min-h-fit' name="intro"><Intro/></section>
+        <section id='myid1' className='min-h-fit bg-opacity-80' name="about"><About/></section>
+        <section id="myid4" className='min-h-fit bg-opacity-80' name="experience"><Experience/></section>
+        <section id='myid3' className='min-h-fit bg-opacity-80' name="projects"><Projects/></section>
         <section id='myid2' className='bg-opacity-80' name="contact"><Contact/></section>
         <section name="footer"><Footer/></section>
       </div>

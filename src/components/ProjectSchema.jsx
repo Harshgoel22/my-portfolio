@@ -15,12 +15,12 @@ export function ProjectSchema1({image, title, description, github_url, proj_url}
 			</div>
 		</div>
 		<div className="md:absolute md:right-24 w-56 z-50 md:w-8/12">
-			<p className="text-right text-2xl font-serif font-semibold text-gray-300 m-2 p-2 mt-0">{title}</p>
+			<p className="md:text-right text-center text-2xl font-serif font-semibold text-gray-300 m-2 p-2 mt-0">{title}</p>
 			<div className="min-h-fit min-w-fit w-8/12 bg-gray-950 m-2 p-2 opacity-75 rounded-lg shadow-md shadow-gray-300">
 				<p className="m-1 p-1 opacity-100">{description[0]}</p>
 				<p className="m-1 p-1 opacity-100">{description[1]}</p>
 			</div>
-			<div className="flex flex-row float-right space-x-2 m-1">
+			<div className="flex flex-row md:float-right justify-center space-x-2 m-1">
 				<div className=" m-1 "><SocialIcon className="rounded-full hover:scale-110 hover:shadow-md hover:shadow-gray-300" network="github" url={github_url} /></div>
 				<div className="m-1 h-12 w-12 rounded-full bg-gray-900 hover:scale-110 hover:shadow-md hover:shadow-gray-300">
 					<a href={proj_url}>
