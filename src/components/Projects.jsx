@@ -7,7 +7,7 @@ export default function Projects(){
 	return <div id='myid3' className="z-10">
 		<div className="text-gray-300 ml-[11%] p-2 w-11/12 mt-36 mb-48">
 			<p className="md:text-4xl text-3xl font-semibold text-gray-300 font-serif">Some Things I've Built: </p>
-			<div className="w-11/12 md:space-y-64 mb-64 space-y-96">
+			<div className="w-11/12 md:space-y-96 mb-64">
 				{
 					projectDetails.map((project)=>{
 						return (project.key%2==0) ? (
